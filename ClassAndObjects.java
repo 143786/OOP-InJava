@@ -33,6 +33,22 @@ class Student {
 
 public class ClassAndObjects {
     public static void main(String[] args) {
+        // Creating an object of Class Student
+        Student student = new Student();
+        student.acceptDetails();
+        student.displayDetails();
+
+       /* Student student1 = new Student();
+        student1.acceptDetails();
+        student1.displayDetails();
+
+        Student student2 = new Student();
+        student2.acceptDetails();
+        student2.displayDetails();
+
+        */
+
+
 
     }
 }
