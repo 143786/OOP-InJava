@@ -1,5 +1,7 @@
 package OPPs;
 
+import javax.sound.midi.Soundbank;
+
 class Person{
     private String firsName;
     private String lastName;
@@ -23,6 +25,11 @@ class Person{
 public class EncapsulationInJava {
     public static void main(String[] args) {
         Person person = new Person();
+        person.setFirstName("Ayline");
+        System.out.println(person.getFirstName());
+        person.setLastName("Tabish");
+        System.out.println(person.getLastName());
+
 
     }
 }
