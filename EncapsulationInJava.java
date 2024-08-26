@@ -7,11 +7,15 @@ class Person{
     public  String getFirstName(){
        return this.firsName;
     }
-    public void setFirsName(String firsName) {
+    public void setFirstName(String firsName) {
         this.firsName = firsName;
-
     }
-
+    public  String getLastName() {
+         return this.lastName;
+    }
+    public void setLastName(String lastName) {
+        this.lastName= lastName;
+    }
 
 
 }
