@@ -23,7 +23,10 @@ class Person{
         return this.age;
     }
     public void setAge(int age) {
+        if (age >= 18)
         this.age= age;
+        else
+            System.out.println("Invalid Age");
     }
 
 
@@ -37,6 +40,8 @@ public class EncapsulationInJava {
         System.out.println(person.getFirstName());
         person.setLastName("Tabish");
         System.out.println(person.getLastName());
+        person.setAge(33);
+        System.out.println(person.getAge());
 
 
     }
