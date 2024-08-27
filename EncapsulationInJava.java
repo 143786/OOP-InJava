@@ -5,6 +5,7 @@ import javax.sound.midi.Soundbank;
 class Person{
     private String firsName;
     private String lastName;
+    private int age;
 
     public  String getFirstName(){
        return this.firsName;
@@ -18,6 +19,13 @@ class Person{
     public void setLastName(String lastName) {
         this.lastName= lastName;
     }
+    public  int getAge() {
+        return this.age;
+    }
+    public void setAge(int age) {
+        this.age= age;
+    }
+
 
 
 }
