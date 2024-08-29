@@ -26,6 +26,12 @@ class student {
 
     }
 
+    class Marks extends student {
+        private float objectiveMarks;
+        private float subjectiveMarks;
+        
+    }
+
 }
 
 public class InheritanceInJava {
