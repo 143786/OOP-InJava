@@ -1,7 +1,7 @@
 package OPPs;
 import java.util.Scanner;
 
-class Student {
+class student {
 
     // Data Members
     private int studentId;
@@ -20,13 +20,16 @@ class Student {
 
     }
     void displayDetails(){
-        System.out.println("student Id : ");
+        System.out.println("student Id : " + studentId);
+        System.out.println("student Name : " + studentName);
+        System.out.println("student Age : " + studentAge);
+
     }
 
 }
 
-
-
-
 public class InheritanceInJava {
+    public static void main(String[] args) {
+
+    }
 }
