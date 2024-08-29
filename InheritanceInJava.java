@@ -19,6 +19,9 @@ class Student {
         studentAge = scanner.nextInt();
 
     }
+    void displayDetails(){
+        System.out.println("student Id : ");
+    }
 
 }
 
