@@ -22,12 +22,19 @@ class Car extends Vehicle {
 
 public class UpCastingDownCastingInJava {
     public static void main(String[] args) {
+            // Upcasting
+        Vehicle vehicle1 = new Car ();
+        vehicle1.drive();
 
         /* here in the main method, istantiating a Vehicle class, but
-       initializing the Car class. it's a Downcasting */
-
+       initializing the Car class.*/
+            // Downcasting
         Vehicle vehicle = new Car();
-        
+        Car car = (Car) vehicle;
+        car.drive();
+        car.speedUp();
+
+
 
     }
 }
