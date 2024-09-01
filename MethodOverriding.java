@@ -16,17 +16,21 @@ class Person {
 class Employee extends Person {
     String designation;
     float salary;
-    public Employee(String designation, float salary){
+    public Employee(String name, int age, String designation, float salary){
+        super(name,age);
         this.designation = designation;
         this.salary = salary;
-        
+
     }
+            // Print method :
+    public void print(){
+        super.print();
+        System.out.println("Designation :  " + designation);
+        System.out.println("Salary : " + salary);
 
 
-
+    }
 }
-
-
 
 
 public class MethodOverriding {
