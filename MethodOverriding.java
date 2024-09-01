@@ -36,5 +36,9 @@ class Employee extends Person {
 public class MethodOverriding {
     public static void main(String[] args) {
 
+        // Object of child claas :
+        Employee employee = new Employee("Ayline" , 23, "Manager", 5000 );
+        employee.print();
+
     }
 }
